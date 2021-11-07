@@ -1,3 +1,11 @@
-export default function Root(props) {
-  return <section>{props.name} is mounted!</section>;
+import BaseContainer from "./components/base/Container";
+import NewDisney from "./components/NewDisney";
+
+export default function Root() {
+  return (
+    <BaseContainer>
+      <NewDisney />
+      <div />
+    </BaseContainer>
+  );
 }
