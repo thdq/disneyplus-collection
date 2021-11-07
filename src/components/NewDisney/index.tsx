@@ -4,7 +4,7 @@ import { newDisney } from "../../services/listMovies";
 const NewDisney = () => {
   return (
     <div className="collection-new-disney">
-      <h4>New to Disney+</h4>
+      <h4>Novidades da Disney+</h4>
       <div className="collection-new-disney__content">
         {newDisney &&
           newDisney.map((movie, key) => (

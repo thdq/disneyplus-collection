@@ -1,6 +1,10 @@
 .collection-new-disney {
   padding: 0 0 26px;
 
+  h4 {
+    color: white;
+  }
+
   &__content {
     display: grid;
     grid-gap: 25px;
